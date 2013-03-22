@@ -1,8 +1,27 @@
+* {
+   /*border: 1px solid black;*/
+}
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 14px Arial, sans-serif;
 }
 
 a {
-  color: #00B7FF;
+  color: #4660A2;
+}
+
+.title1 {
+    font-family: Arial;
+    text-align: center;
+    font-size: 36px;
+    margin-top: 0%;
+}
+
+.title2 {
+    font-family: Arial;
+    text-align: center;
+    font-size: 14px;
+    margin-top: -2%;
+    color: #88878C;
 }

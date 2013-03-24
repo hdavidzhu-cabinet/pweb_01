@@ -22,6 +22,24 @@ a {
     font-family: Arial;
     text-align: center;
     font-size: 14px;
-    margin-top: -2%;
+    margin-top: -7%;
     color: #88878C;
+}
+
+.title {
+    width: 30%;
+    display: inline-block;
+}
+
+.heading {
+    width: 100%;
+    height: 100%;
+}
+
+.avatar {
+  display: inline-block;
+}
+
+.avatar1 {
+  height: 60px;
 }

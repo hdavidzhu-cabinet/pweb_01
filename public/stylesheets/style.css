@@ -1,5 +1,5 @@
 * {
-   /*border: 1px solid black;*/
+   border :1px solid black;
 }
 
 body {
@@ -29,6 +29,7 @@ a {
 .title {
     width: 30%;
     display: inline-block;
+    min-width: 450px;
 }
 
 .heading {
@@ -41,5 +42,7 @@ a {
 }
 
 .avatar1 {
-  height: 60px;
+  height: 40px; /*52px*/
+  border-radius: 100px;
+  border: 5px solid black;
 }

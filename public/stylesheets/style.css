@@ -1,48 +1,26 @@
 * {
-   border :1px solid black;
+   /*border :1px solid black;*/
 }
 
 body {
-  padding: 50px;
-  font: 14px Arial, sans-serif;
+  padding: 0px;
+  font: 14px Myraid Pro, Arial, sans-serif;
 }
 
 a {
   color: #4660A2;
 }
 
-.title1 {
-    font-family: Arial;
-    text-align: center;
-    font-size: 36px;
-    margin-top: 0%;
-}
-
-.title2 {
-    font-family: Arial;
-    text-align: center;
-    font-size: 14px;
-    margin-top: -7%;
-    color: #88878C;
-}
-
 .title {
     width: 30%;
     display: inline-block;
     min-width: 450px;
+    font-family: 'Julius Sans One', sans-serif;
+    text-align: center;
+    font-size: 72px;
 }
 
 .heading {
     width: 100%;
     height: 100%;
-}
-
-.avatar {
-  display: inline-block;
-}
-
-.avatar1 {
-  height: 40px; /*52px*/
-  border-radius: 100px;
-  border: 5px solid black;
 }

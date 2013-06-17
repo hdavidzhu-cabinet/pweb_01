@@ -1,10 +1,20 @@
 doctype 5
 html
-  head
-    title= title
-    link(rel='stylesheet', href='/stylesheets/style.css')
-    link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Sintony:400,700|Julius+Sans+One', type='text/css')
-    script(src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js")
-    block scripts
-  body
-    block content
+	head
+		title= title
+		link(rel='stylesheet', href='/stylesheets/style.css')
+		link(rel='stylesheet', href='http://fonts.googleapis.com/css?family=Sintony:400,700|Julius+Sans+One', type='text/css')
+		script(src="//ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js")
+		script(src="/scripts/main.js")
+		block scripts
+	body
+		//- Info box with name.
+		div.info
+			div.name h. DAVID ZHU
+			div.centered 
+				a(href="/")     about    |
+				a(href="/projects")     projects    |
+				a(href="/blog")     blog
+		//- Horizon.
+		div.horizon
+			block content
